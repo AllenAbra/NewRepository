@@ -1,12 +1,11 @@
 ---
+toc: false
+comments: false 
+layout: post 
 title: Classic Snake Game
-layout: base
-description: A pretty advanced use of JavaScript building classic snake game using menu controls, key events, snake simulation and timers.  
-permalink: /frontend/snake
-image: /images/snake.png
-categories: [C4.9]
-tags: [javascript]
----
+courses: { compsci: {week: 2} }
+type: hacks
+--- 
 
 {% include nav_frontend.html %}
 
@@ -23,7 +22,7 @@ tags: [javascript]
         display: none;
         border-style: solid;
         border-width: 10px;
-        border-color: #FFFFFF;
+        border-color: #d375cf;
     }
     canvas:focus{
         outline: none;
@@ -69,8 +68,8 @@ tags: [javascript]
     }
 
     #setting input:checked + label{
-        background-color: #FFF;
-        color: #000;
+        background-color: #000000;
+        color: #00ff4c;
     }
 </style>
 
