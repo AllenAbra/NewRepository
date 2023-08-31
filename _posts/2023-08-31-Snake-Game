@@ -1,13 +1,11 @@
 ---
 toc: false
 comments: false 
-layout: post 
+layout: post
 title: Classic Snake Game
 courses: { compsci: {week: 2} }
 type: hacks
 --- 
-
-{% include nav_frontend.html %}
 
 <style>
 
