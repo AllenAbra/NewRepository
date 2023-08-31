@@ -6,9 +6,11 @@ title: Allen's Blog
 
 # Allen's Home Page  
 
-This is my home page with fun facts about me!
+>This is my home page with fun facts about me!
 
 ## About Me
+
+--- 
 
 I am from San Diego, I have two siblings and I love reading. 
 
