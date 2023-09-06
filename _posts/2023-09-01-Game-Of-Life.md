@@ -84,7 +84,7 @@ type: hacks
     function draw() {
       tableArr.forEach((rowArr, row) => {
         rowArr.forEach((colVal, col) => {
-          fill(colVal == 1 ? "Yellow" : "transparent"); // Yellow if live, transparent if dead
+          fill(colVal == 1 ? "Blue" : "Orange"); // Blue if live, Orange if dead
           rect(row * boxWid, col * boxWid, boxWid, boxWid);
         });
       });
