@@ -8,7 +8,6 @@ type: hacks
 --- 
 
 <style>
-
     body{
     }
     .wrap{
