@@ -94,10 +94,10 @@ function newInputLine(index) {
     // Set focus on the new input line
     document.getElementById(index).focus();
 }
+// Creates 1st input box on Window load
+newInputLine(0);
     </tr>
     </thead>
     </table>
-</body>
-// Creates 1st input box on Window load
-newInputLine(0);
+    </body>
 </script>
