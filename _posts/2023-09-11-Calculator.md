@@ -7,12 +7,15 @@ courses: { compsci: {week: 4} }
 type: hacks
 ---
 
+<h3>Tool Check 1.8 out of 2<h3>
+
 %%html
+
 
 <FONT COLOR="#ff0000">
 
 <!-- Help Message -->
-<h3>Input scores, press tab to add each new number.</h3>
+<h3>This is a calculator!</h3>
 <!-- Totals -->
 <ul>
 <li>
@@ -27,18 +30,12 @@ type: hacks
 </div>
 
 <script>
-    <body>
-    <table class="table">
-    <thead>
-    <tr>
-
 // Executes on input event and calculates totals
 function calculator(event) {
     var key = event.key;
     // Check if the pressed key is the "Tab" key (key code 9) or "Enter" key (key code 13)
     if (key === "Tab" || key === "Enter") { 
         event.preventDefault(); // Prevent default behavior (tabbing to the next element)
-   
         var array = document.getElementsByName('score'); // setup array of scores
         var total = 0;  // running total
         var count = 0;  // count of input elements with valid values
@@ -97,8 +94,4 @@ function newInputLine(index) {
 }
 // Creates 1st input box on Window load
 newInputLine(0);
-</tr>
-</thead>
-</table>
-</body>
 </script>
