@@ -27,6 +27,11 @@ type: hacks
 </div>
 
 <script>
+    <body>
+    <table class="table">
+    <thead>
+    <tr>
+
 // Executes on input event and calculates totals
 function calculator(event) {
     var key = event.key;
@@ -83,10 +88,6 @@ function newInputLine(index) {
     score.style.width = "5em";
     document.getElementById("scores").appendChild(score);  // add to HTML
 
-<body>
-    <table class="table">
-    <thead>
-    <tr>
     // Create and add blank line after input box
     var br = document.createElement("br");  // line break element
     document.getElementById("scores").appendChild(br); // add to HTML
@@ -96,8 +97,8 @@ function newInputLine(index) {
 }
 // Creates 1st input box on Window load
 newInputLine(0);
-    </tr>
-    </thead>
-    </table>
-    </body>
+</tr>
+</thead>
+</table>
+</body>
 </script>
