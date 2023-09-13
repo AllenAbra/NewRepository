@@ -9,7 +9,6 @@ type: hacks
 
 <h3>Tool Check 1.8 out of 2<h3>
 <FONT COLOR="#ff0000">
-<border="#ff0000"> 
 <!-- Help Message -->
 <h3>This is a calculator!</h3>
 
@@ -21,9 +20,9 @@ type: hacks
             <tbody>
                 <thead>
                      <tr>
-    Total : <span id="total">0.0</span>
-    Count : <span id="count">0.0</span>
-    Average : <span id="average">0.0</span>
+   <th> Total : <span id="total">0.0</span></th>
+    <th>Count : <span id="count">0.0</span></th>
+   <th> Average : <span id="average">0.0</span></th>
 </tr>
         </thead>
         </tbody>
