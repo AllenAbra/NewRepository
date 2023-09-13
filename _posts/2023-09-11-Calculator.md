@@ -8,15 +8,17 @@ type: hacks
 ---
 
 <h3>Tool Check 1.8 out of 2<h3>
-
-%%html
-
-
 <FONT COLOR="#ff0000">
-
 <!-- Help Message -->
 <h3>This is a calculator!</h3>
+
+
 <!-- Totals -->
+<body>
+    <table class="table">
+    <tbody>
+        <thead>
+            <tr>
 <ul>
 <li>
     Total : <span id="total">0.0</span>
@@ -25,6 +27,13 @@ type: hacks
 </li>
 </ul>
 <!-- Rows added using scores ID -->
+</tr>
+        </tr>
+        </thead>
+        </tbody>
+        </table>
+        </body>
+
 <div id="scores">
     <!-- javascript generated inputs -->
 </div>
