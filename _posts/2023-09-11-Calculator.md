@@ -9,17 +9,26 @@ type: hacks
 
 <h3>Tool Check 1.8 out of 2<h3>
 <FONT COLOR="#ff0000">
+<border="#ff0000"> 
 <!-- Help Message -->
 <h3>This is a calculator!</h3>
 
 
 <!-- Totals -->
 <ul>
-<li>
+<body>
+        <table class="table">
+            <tbody>
+                <thead>
+                     <tr>
     Total : <span id="total">0.0</span>
     Count : <span id="count">0.0</span>
     Average : <span id="average">0.0</span>
-</li>
+</tr>
+        </thead>
+        </tbody>
+        </table>
+        </body>
 </ul>
 <!-- Rows added using scores ID -->
 
@@ -83,11 +92,6 @@ function newInputLine(index) {
     score.style.textAlign = "right";
     score.style.width = "5em";
     document.getElementById("scores").appendChild(score);  // add to HTML
- <body>
-        <table class="table">
-            <tbody>
-                <thead>
-                     <tr>
     // Create and add blank line after input box
     var br = document.createElement("br");  // line break element
     document.getElementById("scores").appendChild(br); // add to HTML
@@ -95,12 +99,6 @@ function newInputLine(index) {
     // Set focus on the new input line
     document.getElementById(index).focus();
 }
- </tr>
-        </tr>
-        </thead>
-        </tbody>
-        </table>
-        </body>
 // Creates 1st input box on Window load
 newInputLine(0);
 
