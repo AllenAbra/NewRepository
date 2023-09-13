@@ -91,15 +91,16 @@ function newInputLine(index) {
     // Create and add blank line after input box
     var br = document.createElement("br");  // line break element
     document.getElementById("scores").appendChild(br); // add to HTML
+
+    // Set focus on the new input line
+    document.getElementById(index).focus();
+}
  </tr>
         </tr>
         </thead>
         </tbody>
         </table>
         </body>
-    // Set focus on the new input line
-    document.getElementById(index).focus();
-}
 // Creates 1st input box on Window load
 newInputLine(0);
 
