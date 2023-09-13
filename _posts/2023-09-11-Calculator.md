@@ -14,11 +14,6 @@ type: hacks
 
 
 <!-- Totals -->
-<body>
-    <table class="table">
-    <tbody>
-        <thead>
-            <tr>
 <ul>
 <li>
     Total : <span id="total">0.0</span>
@@ -27,18 +22,13 @@ type: hacks
 </li>
 </ul>
 <!-- Rows added using scores ID -->
-</tr>
-        </tr>
-        </thead>
-        </tbody>
-        </table>
-        </body>
 
 <div id="scores">
     <!-- javascript generated inputs -->
 </div>
 
 <script>
+
 // Executes on input event and calculates totals
 function calculator(event) {
     var key = event.key;
@@ -93,14 +83,24 @@ function newInputLine(index) {
     score.style.textAlign = "right";
     score.style.width = "5em";
     document.getElementById("scores").appendChild(score);  // add to HTML
-
+ <body>
+        <table class="table">
+            <tbody>
+                <thead>
+                     <tr>
     // Create and add blank line after input box
     var br = document.createElement("br");  // line break element
     document.getElementById("scores").appendChild(br); // add to HTML
-
+ </tr>
+        </tr>
+        </thead>
+        </tbody>
+        </table>
+        </body>
     // Set focus on the new input line
     document.getElementById(index).focus();
 }
 // Creates 1st input box on Window load
 newInputLine(0);
-</script>
+
+</script> 
