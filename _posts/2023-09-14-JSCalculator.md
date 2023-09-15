@@ -4,9 +4,9 @@ comments: false
 layout: post
 title: JS Calculator
 courses: { compsci: {week: 5} }
-type: hacks
+type: Hacks
 ---
-
+<FONT COLOR="#ff0000">
 <!-- 
 Hack 0: Right justify result
 Hack 1: Test conditions on small, big, and decimal numbers, report on findings. Fix issues.
@@ -187,11 +187,11 @@ function clearCalc () { // clears calculator
 <!-- 
 Vanta animations just for fun, load JS onto the page
 -->
-<script src="scripts/three.r119.min.js"></script>
-<script src="scripts/vanta.halo.min.js"></script>
-<script src="scripts/vanta.birds.min.js"></script>
-<script src="scripts/vanta.net.min.js"></script>
-<script src="scripts/vanta.rings.min.js"></script>
+<script src="/NewRepository/scripts/three.r119.min.js"></script>
+<script src="/NewRepository/scripts/vanta.halo.min.js"></script>
+<script src="/NewRepository/scripts/vanta.birds.min.js"></script>
+<script src="/NewRepository/scripts/vanta.net.min.js"></script>
+<script src="/NewRepository/scripts/vanta.rings.min.js"></script>
 
 
 <script>
