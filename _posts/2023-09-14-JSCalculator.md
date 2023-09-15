@@ -6,6 +6,8 @@ title: JS Calculator
 courses: { compsci: {week: 5} }
 type: Hacks
 ---
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.waves.min.js"></script>
 <FONT COLOR="#ff0000">
 <!-- 
 Hack 0: Right justify result
@@ -187,11 +189,11 @@ function clearCalc () { // clears calculator
 <!-- 
 Vanta animations just for fun, load JS onto the page
 -->
-<script src="/NewRepository/scripts/js/three.r119.min.js"></script>
-<script src="/NewRepository/scripts/js/vanta.halo.min.js"></script>
-<script src="/NewRepository/scripts/js/vanta.birds.min.js"></script>
-<script src="/NewRepository/scripts/js/vanta.net.min.js"></script>
-<script src="/NewRepository/scripts/js/vanta.rings.min.js"></script>
+<script src="/NewRepository/images/js/three.r119.min.js"></script>
+<script src="/NewRepository/images/js/vanta.halo.min.js"></script>
+<script src="/NewRepository/images/js/vanta.birds.min.js"></script>
+<script src="/NewRepository/images/js/vanta.net.min.js"></script>
+<script src="/NewRepository/images/js/vanta.rings.min.js"></script>
 
 
 <script>
