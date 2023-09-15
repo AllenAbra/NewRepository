@@ -18,7 +18,6 @@ Hack 3: Implement 1 number operation (ie SQRT)
 HTML implementation of the calculator. 
 -->
 
-{% include nav_home.html %}
 
 <!-- 
     Style and Action are aligned with HRML class definitions
@@ -72,7 +71,6 @@ HTML implementation of the calculator.
       <div class="calculator-number">.</div>
       <div class="calculator-equals">=</div>
   </div>
-</div>
 
 <!-- JavaScript (JS) implementation of the calculator. -->
 <script>
@@ -189,19 +187,14 @@ function clearCalc () { // clears calculator
 <!-- 
 Vanta animations just for fun, load JS onto the page
 -->
-<script src="/teacher/assets/js/three.r119.min.js"></script>
-<script src="/teacher/assets/js/vanta.halo.min.js"></script>
-<script src="/teacher/assets/js/vanta.birds.min.js"></script>
-<script src="/teacher/assets/js/vanta.net.min.js"></script>
-<script src="/teacher/assets/js/vanta.rings.min.js"></script>
+<script src="/NewRepository/posts/js/vanta.birds.min.js"></script>
+
 
 <script>
 // setup vanta scripts as functions
 var vantaInstances = {
-  halo: VANTA.HALO,
   birds: VANTA.BIRDS,
-  net: VANTA.NET,
-  rings: VANTA.RINGS
+
 };
 
 // obtain a random vanta function
