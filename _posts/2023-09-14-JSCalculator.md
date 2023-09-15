@@ -187,13 +187,20 @@ function clearCalc () { // clears calculator
 <!-- 
 Vanta animations just for fun, load JS onto the page
 -->
-<script src="/NewRepository/posts/js/vanta.birds.min.js"></script>
+<script src="scripts/three.r119.min.js"></script>
+<script src="scripts/vanta.halo.min.js"></script>
+<script src="scripts/vanta.birds.min.js"></script>
+<script src="scripts/vanta.net.min.js"></script>
+<script src="scripts/vanta.rings.min.js"></script>
 
 
 <script>
 // setup vanta scripts as functions
 var vantaInstances = {
+  halo: VANTA.HALO,
   birds: VANTA.BIRDS,
+  net: VANTA.NET,
+  rings: VANTA.RINGS
 
 };
 
