@@ -4,9 +4,13 @@ comments: false
 layout: post
 title: JS Calculator
 courses: { compsci: {week: 5} }
-type: Hacks
+type: hacks
 ---
 <FONT COLOR="#ff0000">
+
+<meta name="theme-color" content="#353535">
+<meta name="msapplication-navbutton-color" content="#353535">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <!-- 
 Hack 0: Right justify result
 Hack 1: Test conditions on small, big, and decimal numbers, report on findings. Fix issues.
@@ -187,12 +191,13 @@ function clearCalc () { // clears calculator
 <!-- 
 Vanta animations just for fun, load JS onto the page
 -->
-<script src="/NewRepository/script/js/three.r119.min.js"></script>
-<script src="/NewRepository/script/js/vanta.halo.min.js"></script>
-<script src="/NewRepository/script/js/vanta.birds.min.js"></script>
-<script src="/NewRepository/script/js/vanta.net.min.js"></script>
-<script src="/NewRepository/script/js/vanta.rings.min.js"></script>
+<script src="/NewRepository/assets/js/three.r119.min.js"></script>
+<script src="/NewRepository/assets/js/vanta.halo.min.js"></script>
+<script src="/NewRepository/assets/js/vanta.birds.min.js"></script>
+<script src="/NewRepository/assets/js/vanta.net.min.js"></script>
+<script src="/NewRepository/assets/js/vanta.rings.min.js"></script>
 
+<div id="animation" style="position: relative;"><span style="position: relative; z-index: 1;">
 
 <script>
 // setup vanta scripts as functions
