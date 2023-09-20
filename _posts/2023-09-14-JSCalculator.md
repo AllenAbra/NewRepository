@@ -6,11 +6,11 @@ title: JS Calculator
 courses: { compsci: {week: 5} }
 type: hacks
 ---
-<FONT COLOR="#ff0000">
+<FONT COLOR="#cfffc9">
 
-<meta name="theme-color" content="#353535">
-<meta name="msapplication-navbutton-color" content="#353535">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#f783f0">
+<meta name="msapplication-navbutton-color" content="#5764a1">
+<meta name="apple-mobile-web-app-status-bar-style" content="Light Yellow">
 <!-- 
 Hack 0: Right justify result
 Hack 1: Test conditions on small, big, and decimal numbers, report on findings. Fix issues.
@@ -36,16 +36,18 @@ HTML implementation of the calculator.
       result to take up the entirety of the first row;
       span defines 4 columns and 1 row
     */
+    
     grid-column: span 4;
     grid-row: span 1;
   
     border-radius: 10px;
     padding: 0.25em;
-    font-size: 20px;
-    border: 5px solid black;
+    font-size: 30px;
+    border: 5px solid purple;
   
     display: flex;
     align-items: center;
+    text-align: right;
   }
 </style>
 
