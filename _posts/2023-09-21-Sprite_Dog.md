@@ -3,7 +3,7 @@ toc: true
 comments: false
 layout: post
 title: Sprite the Dog
-courses: { compsci: {week: 5} }
+courses: { compsci: {week: 6} }
 type: tangibles
 ---
 <body>
