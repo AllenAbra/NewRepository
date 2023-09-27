@@ -5,8 +5,8 @@ description: Use JavaScript without external libararies to animate Mario moving 
 categories: [C5.0, C7.0, C7.6]
 permalink: /frontend/home_motion
 image: /images/mario_animation.png
-courses: { csse: {week: 6}, csp: {week: 13}, csa: {week: 3} }
-type: ccc
+courses: { compsci: {week: 6} }
+type: hacks
 ---
 
 {% include nav_home.html %}
