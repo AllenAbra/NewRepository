@@ -1,6 +1,6 @@
 ---
 toc: true
-comments: false
+comments: true
 layout: post
 title: JS Calculator
 courses: { compsci: {week: 5} }
