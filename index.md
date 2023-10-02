@@ -2,7 +2,7 @@
 layout: default
 title: Allen's Blog
 ---
-![Comments'] ('assets/js/Comments.js')
+!['Comments'] ('assets/js/Comments.js')
 # Allen's Home Page  
 
 >This is my home page with fun facts about me!
