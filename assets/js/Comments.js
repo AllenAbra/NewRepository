@@ -1,7 +1,7 @@
 export default class Comments 
     // ...
 
- src {"https://utteranc.es/client.js"}
+ {src} {"https://utteranc.es/client.js"}
         repo;'AllenAbra/NewRepository'
         issue-term; "pathname"
         theme;'github-light'
