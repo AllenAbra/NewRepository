@@ -1,10 +1,13 @@
-<script src="https://utteranc.es/client.js"
-        repo="AllenAbra/NewRepository"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+export default class Comments 
+    // ...
+
+ src {"https://utteranc.es/client.js"}
+        repo;'AllenAbra/NewRepository'
+        issue-term; "pathname"
+        theme;'github-light'
+        crossorigin;'anonymous'
+        async
+ 
 
 render() ; 
     return (

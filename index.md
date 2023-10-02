@@ -2,9 +2,7 @@
 layout: default
 title: Allen's Blog
 ---
-
-import Comments from '/Users/alyssa-allenabrams/vscode/NewRepository/NewRepository/assets/js/Comments.js'
-
+import { Comments } from 'assets/js/Comments.js';
 # Allen's Home Page  
 
 >This is my home page with fun facts about me!
