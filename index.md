@@ -3,6 +3,7 @@ layout: default
 title: Allen's Blog
 ---
 
+import Comments from '/Users/alyssa-allenabrams/vscode/NewRepository/NewRepository/assets/js/Comments.js'
 
 # Allen's Home Page  
 
@@ -19,6 +20,8 @@ I am from San Diego, I have two siblings and I love reading.
 - My favorite animals are cows
 - I love baking!!!
 - Hello!
+
+<Comments /> 
 
 ![Collage about me](images/My_Drawing.png "Allen Collage")
 
