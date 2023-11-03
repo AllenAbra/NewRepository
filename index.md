@@ -22,5 +22,5 @@ I am from San Diego, I have two siblings and I love reading.
 <Comments /> 
 
 ![Collage about me](images/My_Drawing.png "Allen Collage")
-![Screensaver](/Users/alyssa-allenabrams/vscode/NewRepository/NewRepository/images/the_alien.gif "Screensaver")
+![Screensaver](images/the_alien.gif "Screensaver")
 
