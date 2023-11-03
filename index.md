@@ -22,5 +22,4 @@ I am from San Diego, I have two siblings and I love reading.
 <Comments /> 
 
 ![Collage about me](images/My_Drawing.png "Allen Collage")
-![Screensaver](images/the_alien.gif "Screensaver")
 <img src="images/the_alien.gif" width="700" height="700" alt="alien">
