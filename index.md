@@ -22,5 +22,6 @@ I am from San Diego, I have two siblings and I love reading.
 <Comments /> 
 <img src="images/My_Drawing.png" width="700" height="700" alt="allen collage">
 <img src="images/the_alien.gif" width="700" height="700" alt="alien">
+<img src="images/class.gif" width="700" height="700" alt="class">
 
 
