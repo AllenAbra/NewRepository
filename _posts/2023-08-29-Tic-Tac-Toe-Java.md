@@ -30,7 +30,7 @@ type: hacks
 		<div class = "ui">
 			<div class="row">
 				<input type="text" id= "b1"
-					class="cell" onclick="myfunc_3(x); myfunc(o);"
+					class="cell" onclick="myfunc_3(); myfunc();"
 					readonly>
 				<input type="text" id= "b2"
 					class="cell" onclick="myfunc_4(); myfunc();"
