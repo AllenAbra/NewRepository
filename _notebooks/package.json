@@ -1,0 +1,21 @@
+{
+    "name": "animation-extension",
+    "displayName": "Animation Extension",
+    "description": "An extension to display an animation.",
+    "version": "0.0.1",
+    "engines": {
+      "vscode": "^1.0.0"
+    },
+    "categories": ["Other"],
+    "activationEvents": ["onCommand:extension.showAnimation"],
+    "main": "./extension.js",
+    "contributes": {
+      "commands": [
+        {
+          "command": "extension.showAnimation",
+          "title": "Show Animation"
+        }
+      ]
+    }
+  }
+  
