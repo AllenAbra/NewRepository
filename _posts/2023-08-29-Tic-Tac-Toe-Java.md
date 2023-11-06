@@ -29,13 +29,13 @@ type: hacks
 		<br><br>
 		<div class = "ui">
 			<div class="row">
-				<input type="X" id= "b1"
-					class="cell" onclick="myfunc_3(); myfunc();"
+				<input type="text" id= "b1"
+					class="cell" onclick="myfunc_3(x); myfunc(o);"
 					readonly>
-				<input type="X" id= "b2"
+				<input type="text" id= "b2"
 					class="cell" onclick="myfunc_4(); myfunc();"
 					readonly>
-				<input type="X" id= "b3" class="cell"
+				<input type="text" id= "b3" class="cell"
 					onclick="myfunc_5(); myfunc();"
 					readonly>
 			</div>
